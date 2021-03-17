@@ -1,6 +1,6 @@
 <div class="side_head">
   <div class="head_name">
-    <a href="#">satosi</a>
+    <%= link_to current_user.name,edit_user_path(current_user) %>
   </div>
   <div class="chat_make">
     <a href="#">チャットを作成する</a>
