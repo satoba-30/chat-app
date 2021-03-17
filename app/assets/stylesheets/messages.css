@@ -1,0 +1,38 @@
+.wrapper{
+  display: flex;
+}
+/*サイドのCSS*/
+.side-bar{
+  width: 300px;
+  background-color:#253141;
+  height: 100vh;
+}
+.side-head{
+  height: 100px;
+  padding: 0 20px;
+}
+.groups{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+/*メインのCSS*/
+.main{
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+  height: 100vh;
+}
+.main-head{
+  height: 100px;
+  padding: 0 40px;
+}
+.main-content{
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding-top:46px 40px 0 40px;
+}
+.main-foot{
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px
+}
